@@ -1,3 +1,3 @@
 # WeatherD
 
-Weather forecast APP by using AngularJS, firebase, highchartJS, Restful API
+Weather forecast Hybrid APP by using AngularJS, firebase, highchartJS, Restful API
