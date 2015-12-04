@@ -1,3 +1,3 @@
 # WeatherD
 
-Weather forecast APP by using AngularJS, firebase
+Weather forecast APP by using AngularJS, firebase, highchartJS
