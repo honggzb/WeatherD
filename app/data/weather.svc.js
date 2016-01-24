@@ -10,7 +10,7 @@
             };
 
             function findByLocation(location){
-                var url = "http://api.openweathermap.org/data/2.5/find?q="+location+"&appid=2de143494c0b295cca9337e1e96b00e0";
+                var url = "http://api.openweathermap.org/data/2.5/find?q="+location+"&appid=44db6a862fba0b067b1930da0d769e98";
                 var defer = $q.defer();
                 $http.get(url)
                     .success(function(res){
@@ -23,7 +23,7 @@
             }
 
             function getCurrentWeather(id){
-                var url = "http://api.openweathermap.org/data/2.5/weather?id="+id+"&appid=2de143494c0b295cca9337e1e96b00e0";
+                var url = "http://api.openweathermap.org/data/2.5/weather?id="+id+"&appid=44db6a862fba0b067b1930da0d769e98";
                 var defer = $q.defer();
                 $http.get(url)
                     .success(function(res){
@@ -36,7 +36,7 @@
             }
 
             function getForecastData(id) {
-                var url = "http://api.openweathermap.org/data/2.5/forecast/daily?id=" + id+"&appid=2de143494c0b295cca9337e1e96b00e0";
+                var url = "http://api.openweathermap.org/data/2.5/forecast/daily?id=" + id+"&appid=44db6a862fba0b067b1930da0d769e98";
                 var defer = $q.defer();
                 $http.get(url)
                     .success(function(res){
